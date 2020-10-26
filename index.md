@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+<H1>誠品</H1>
+<form action="http://www.eslite.com/category.aspx"method="GET">
+<input type="text"name="cate"size="20" maxlength="12">
+<input type="submit"value="使用編碼查詢">
+</form>
 
-You can use the [editor on GitHub](https://github.com/funing628/ff/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<br>
+<form action="http://www.eslite.com/category.aspx"method="GET">
+<select name="cate">
+<option value="156">中文書</option>
+<option value="80"selected>外文書</option>
+<option value="44">兒童</option>
+<option value="367">影音</option>
+<option value="669">雜誌</option>
+</select>
+<input type="submit"value="選好點我~">
+</form>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<form action="http://www.eslite.com/Search_BW.aspx"method="GET">
+<input type="text"name="query">
+<input type="hidden"name="query"value="DPA">
+<input type="submit"value="站內搜尋">
+</form>
 
-### Markdown
+網址
+<p><input type="url"placeholder="http://www.eslite.com/"></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+日期
+<p><input type="date" name="date"></p>
 
-```markdown
-Syntax highlighted code block
+電話
+<p><input type="tel"pattern="[0][9][0-9]{8}"placeholder="09xxxxxxxx">
+</p>
+時間
+<p><input type="time" name="time"></p>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/funing628/ff/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+信箱
+<p><input type="email" name="email"</p>
